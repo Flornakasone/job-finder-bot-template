@@ -1,0 +1,18 @@
+# EJEMPLO: palabras que tiene que tener el TÍTULO de una oferta para que te interese.
+# Una por línea. Cambialas por las de tu área. Ejemplos de otras áreas:
+#   marketing: marketing, seo, content, community manager, growth
+#   diseño:    ux, ui, product designer, diseñador, figma
+#   datos:     data analyst, analista de datos, bi, power bi
+
+qa
+quality assurance
+tester
+testing
+analista funcional
+business analyst
+soporte tecnico
+technical support
+customer support
+data annotation
+ai trainer
+evaluator

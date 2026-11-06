@@ -1,0 +1,51 @@
+# Frases que DESCARTAN una oferta si aparecen en el título o la descripción.
+# Rubros excluidos + señales típicas de estafa.
+# Una frase por línea. No distingue mayúsculas ni tildes.
+
+# Marketing de afiliados / MLM
+affiliate marketing
+affiliate program
+multi-level marketing
+multilevel marketing
+mlm
+network marketing
+marketing multinivel
+multinivel
+
+# Solo comisión
+commission only
+commission-only
+commission based only
+100% commission
+solo comision
+100% comision
+
+# Trading / cripto de captación
+forex trading
+crypto trading
+trading signals
+binary options
+copy trading
+
+# Pagar para postularse
+application fee
+registration fee
+training fee
+starter kit
+pay to apply
+pagar para postularte
+costo de inscripcion
+
+# Contacto sospechoso
+interview via telegram
+interview on telegram
+contact us on telegram
+whatsapp interview
+entrevista por telegram
+
+# Programas de capacitación/colocación que se presentan como ofertas
+start or restart your career
+start your career in qa
+restart your career
+career change program
+no experience required, we train you

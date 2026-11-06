@@ -1,0 +1,40 @@
+{
+  "0-legal-notice": "Remotive API Legal Notice",
+  "job-count": 4,
+  "jobs": [
+    {
+      "id": 1001,
+      "url": "https://remotive.com/remote-jobs/qa/qa-automation-engineer-1001",
+      "title": "  QA Automation Engineer ",
+      "company_name": "Ejemplo Fintech",
+      "company_logo": "https://remotive.com/job/1001/logo",
+      "category": "QA",
+      "tags": ["python", "Typescript ", "testing", "PYTHON", ""],
+      "job_type": "full_time",
+      "publication_date": "2026-10-20T10:23:26",
+      "candidate_required_location": "Worldwide",
+      "salary": "",
+      "description": "<p>We are looking for a <strong>QA Engineer</strong>.</p><p> </p><ul class=\"x\" style=\"\"><li>Python</li><li>Pytest</li></ul><script>alert('x')</script><img src=\"https://remotive.com/job/track/1001/blank.gif?source=public_api\" alt=\"\"/>"
+    },
+    {
+      "id": 1002,
+      "url": "https://remotive.com/remote-jobs/support/support-specialist-1002",
+      "title": "Customer Support Specialist",
+      "company_name": null,
+      "category": "Customer Service",
+      "job_type": "",
+      "publication_date": "2026-10-21T08:00:00",
+      "candidate_required_location": "LATAM",
+      "description": ""
+    },
+    {
+      "id": 1003,
+      "url": "https://remotive.com/remote-jobs/dev/sin-titulo-1003",
+      "company_name": "Oferta rota: le falta el título"
+    },
+    {
+      "url": "https://remotive.com/remote-jobs/dev/sin-id",
+      "title": "Oferta rota: le falta el id"
+    }
+  ]
+}

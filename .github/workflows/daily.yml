@@ -1,0 +1,85 @@
+name: Job bot diario
+
+on:
+  # Botón "Run workflow" para probar a mano.
+  workflow_dispatch:
+    inputs:
+      force:
+        description: "Forzar envío aunque ya se haya mandado hoy"
+        type: boolean
+        default: false
+  schedule:
+    - cron: "13 3 * * *"   # 00:13 ART
+    - cron: "13 6 * * *"   # 03:13 ART
+    - cron: "13 9 * * *"   # 06:13 ART
+
+# Mínimo privilegio necesario: escribir en el repo SOLO para guardar data/
+permissions:
+  contents: write
+
+# Nunca dos corridas a la vez (evita mandar la misma oferta dos veces)
+concurrency:
+  group: job-bot-daily
+  cancel-in-progress: false
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15   # corta si algo se cuelga y no gasta minutos de más
+
+    steps:
+      - name: Bajar el código
+        uses: actions/checkout@v4
+        with:
+          # Siempre la última versión de main: si un intento anterior ya mandó el
+          # resumen, este tiene que ver su last_run.json (no el commit de cuando se disparó)
+          ref: main
+
+      - name: Instalar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Instalar dependencias
+        run: pip install -r requirements.txt
+
+      # El modelo de embeddings (~220 MB) se descarga una sola vez y queda cacheado
+      - name: Cache del modelo de embeddings
+        uses: actions/cache@v4
+        with:
+          path: .cache/fastembed
+          key: fastembed-paraphrase-multilingual-MiniLM-L12-v2
+
+      - name: Buscar ofertas y mandar el resumen
+        env:
+          TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          PROFILE_TEXT: ${{ secrets.PROFILE_TEXT }}
+          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
+          LLM_PROFILE: ${{ secrets.LLM_PROFILE }}
+          FORCE: ${{ inputs.force }}
+        run: |
+          if [ -z "$TELEGRAM_TOKEN" ]; then
+            echo "Sin TELEGRAM_TOKEN: bot sin configurar (ver SETUP.md). Nada que hacer."
+            exit 0
+          fi
+          
+          if [ "$FORCE" = "true" ]; then
+            python -m src.main --force
+          else
+            python -m src.main
+          fi
+
+      - name: Guardar seen.json e history.json
+        run: |
+          git config user.name "job-finder-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/
+          # Solo commitea si algo cambió
+          if git diff --cached --quiet; then
+            echo "Sin cambios en data/"
+          else
+            git commit -m "chore: update sent jobs [skip ci]"
+            git push
+          fi

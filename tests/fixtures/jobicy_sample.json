@@ -1,0 +1,47 @@
+{
+  "apiVersion": "2",
+  "documentationUrl": "https://jobicy.com/jobs-rss-feed",
+  "jobCount": 4,
+  "jobs": [
+    {
+      "id": 2001,
+      "url": "https://jobicy.com/jobs/2001-qa-analyst",
+      "jobSlug": "2001-qa-analyst",
+      "jobTitle": "QA Analyst &#8211; Payments &amp; Reconciliation",
+      "companyName": "Ejemplo &amp; Cía",
+      "companyLogo": "https://jobicy.com/logo.png",
+      "jobIndustry": ["Technical Support", "QA "],
+      "jobType": ["full-time"],
+      "jobGeo": "LATAM",
+      "jobLevel": "Midweight",
+      "jobExcerpt": "Short summary.",
+      "jobDescription": "<p>Test <b>payments</b> flows.</p><p>&nbsp;</p>",
+      "pubDate": "2026-10-21T12:00:00+00:00",
+      "salaryMin": 30000,
+      "salaryMax": 40000,
+      "salaryCurrency": "USD",
+      "salaryPeriod": "yearly"
+    },
+    {
+      "id": 2002,
+      "url": "https://jobicy.com/jobs/2002-support",
+      "jobTitle": "Support Specialist",
+      "companyName": "Otra",
+      "jobIndustry": [],
+      "jobType": [],
+      "jobGeo": "Anywhere",
+      "jobLevel": "",
+      "jobExcerpt": "Only an excerpt, no description.",
+      "jobDescription": "",
+      "pubDate": "2026-10-20T09:00:00+00:00"
+    },
+    {
+      "id": 2003,
+      "url": "https://jobicy.com/jobs/2003-roto",
+      "companyName": "Oferta rota: le falta jobTitle"
+    },
+    {
+      "jobTitle": "Oferta rota: le falta id y url"
+    }
+  ]
+}

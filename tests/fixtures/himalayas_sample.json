@@ -1,0 +1,48 @@
+{
+  "totalCount": 3,
+  "offset": 0,
+  "limit": 20,
+  "updatedAt": 1793260800,
+  "jobs": [
+    {
+      "guid": "hm-3001",
+      "title": "QA Analyst &amp; Tester",
+      "companyName": "Ejemplo &amp; Co",
+      "companySlug": "ejemplo",
+      "employmentType": "Full Time",
+      "seniority": ["Mid-level"],
+      "locationRestrictions": [],
+      "timezoneRestrictions": [],
+      "categories": ["Quality Assurance", "Testing"],
+      "excerpt": "Short excerpt.",
+      "description": "<p>Test <b>payments</b>.</p>",
+      "pubDate": 1793260800,
+      "applicationLink": "https://himalayas.app/companies/ejemplo/jobs/qa-analyst"
+    },
+    {
+      "guid": "hm-3002",
+      "title": "Customer Support Specialist",
+      "companyName": "Otra",
+      "employmentType": "Contractor",
+      "seniority": "Entry-level",
+      "locationRestrictions": [
+        {"alpha2": "AR", "name": "Argentina", "slug": "argentina"},
+        {"alpha2": "BR", "name": "Brazil", "slug": "brazil"}
+      ],
+      "categories": [],
+      "excerpt": "Only an excerpt.",
+      "description": "",
+      "pubDate": "no-es-una-fecha",
+      "applicationLink": "https://himalayas.app/companies/otra/jobs/support"
+    },
+    {
+      "guid": "hm-3003",
+      "title": "Oferta rota: le falta applicationLink",
+      "companyName": "Rota"
+    },
+    {
+      "title": "Oferta rota: le falta guid",
+      "applicationLink": "https://himalayas.app/x"
+    }
+  ]
+}

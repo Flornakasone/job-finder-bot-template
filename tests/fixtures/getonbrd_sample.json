@@ -1,0 +1,389 @@
+{
+  "data": [
+    {
+      "id": "qa-fully-remote",
+      "type": "job",
+      "attributes": {
+        "title": "QA Analyst &amp; Tester",
+        "description": "<p>Requisitos</p><ul><li>Testing de APIs</li></ul>",
+        "functions": "<ul><li>Diseñar casos de prueba</li></ul>",
+        "desirable": "<ul><li>Postman</li></ul>",
+        "projects": "<p>Proyecto fintech</p>",
+        "benefits": "<ul><li>Clases de inglés avanzado</li></ul>",
+        "remote": true,
+        "remote_modality": "fully_remote",
+        "countries": [
+          "Remote"
+        ],
+        "lang": "es",
+        "category_name": "SysAdmin / DevOps / QA",
+        "published_at": 1793124939,
+        "location_tenants": {
+          "data": []
+        },
+        "location_cities": {
+          "data": []
+        },
+        "company": {
+          "data": {
+            "id": "improving",
+            "type": "company",
+            "attributes": {
+              "name": "Improving"
+            }
+          }
+        }
+      },
+      "links": {
+        "public_url": "https://www.getonbrd.com/jobs/qa-fully-remote"
+      }
+    },
+    {
+      "id": "go-engineer-microservices-improving-remote",
+      "type": "job",
+      "attributes": {
+        "title": "Senior Go Engineer",
+        "description": "<p>Requisitos</p><ul><li>Testing de APIs</li></ul>",
+        "functions": "<ul><li>Diseñar casos de prueba</li></ul>",
+        "desirable": "<ul><li>Postman</li></ul>",
+        "projects": "<p>Proyecto fintech</p>",
+        "benefits": "<ul><li>Clases de inglés avanzado</li></ul>",
+        "remote": true,
+        "remote_modality": "remote_local",
+        "countries": [
+          "Remote"
+        ],
+        "lang": "es",
+        "category_name": "SysAdmin / DevOps / QA",
+        "published_at": 1793124939,
+        "location_tenants": {
+          "data": [
+            {
+              "id": "mexico",
+              "type": "country",
+              "attributes": {
+                "name": "Mexico"
+              }
+            },
+            {
+              "id": "costa_rica",
+              "type": "country",
+              "attributes": {
+                "name": "Costa Rica"
+              }
+            },
+            {
+              "id": "colombia",
+              "type": "country",
+              "attributes": {
+                "name": "Colombia"
+              }
+            }
+          ]
+        },
+        "location_cities": {
+          "data": []
+        },
+        "company": {
+          "data": {
+            "id": "improving",
+            "type": "company",
+            "attributes": {
+              "name": "Improving"
+            }
+          }
+        }
+      },
+      "links": {
+        "public_url": "https://www.getonbrd.com/jobs/go-engineer-microservices-improving-remote"
+      }
+    },
+    {
+      "id": "qa-remote-argentina",
+      "type": "job",
+      "attributes": {
+        "title": "QA Manual",
+        "description": "<p>Requisitos</p><ul><li>Testing de APIs</li></ul>",
+        "functions": "<ul><li>Diseñar casos de prueba</li></ul>",
+        "desirable": "<ul><li>Postman</li></ul>",
+        "projects": "<p>Proyecto fintech</p>",
+        "benefits": "<ul><li>Clases de inglés avanzado</li></ul>",
+        "remote": true,
+        "remote_modality": "remote_local",
+        "countries": [
+          "Remote"
+        ],
+        "lang": "es",
+        "category_name": "SysAdmin / DevOps / QA",
+        "published_at": 1793124939,
+        "location_tenants": {
+          "data": [
+            {
+              "id": "argentina",
+              "type": "country",
+              "attributes": {
+                "name": "Argentina"
+              }
+            },
+            {
+              "id": "chile",
+              "type": "country",
+              "attributes": {
+                "name": "Chile"
+              }
+            }
+          ]
+        },
+        "location_cities": {
+          "data": []
+        },
+        "company": {
+          "data": {
+            "id": "improving",
+            "type": "company",
+            "attributes": {
+              "name": "Improving"
+            }
+          }
+        }
+      },
+      "links": {
+        "public_url": "https://www.getonbrd.com/jobs/qa-remote-argentina"
+      }
+    },
+    {
+      "id": "qa-hibrido-baires",
+      "type": "job",
+      "attributes": {
+        "title": "Analista QA",
+        "description": "<p>Requisitos</p><ul><li>Testing de APIs</li></ul>",
+        "functions": "<ul><li>Diseñar casos de prueba</li></ul>",
+        "desirable": "<ul><li>Postman</li></ul>",
+        "projects": "<p>Proyecto fintech</p>",
+        "benefits": "<ul><li>Clases de inglés avanzado</li></ul>",
+        "remote": false,
+        "remote_modality": "hybrid",
+        "countries": [
+          "Remote"
+        ],
+        "lang": "es",
+        "category_name": "SysAdmin / DevOps / QA",
+        "published_at": 1793124939,
+        "location_tenants": {
+          "data": []
+        },
+        "location_cities": {
+          "data": [
+            {
+              "id": "buenos_aires",
+              "type": "city",
+              "attributes": {
+                "name": "Buenos Aires"
+              }
+            }
+          ]
+        },
+        "company": {
+          "data": {
+            "id": "cda",
+            "type": "company",
+            "attributes": {
+              "name": "CDA"
+            }
+          }
+        }
+      },
+      "links": {
+        "public_url": "https://www.getonbrd.com/jobs/qa-hibrido-baires"
+      }
+    },
+    {
+      "id": "qa-hibrido-santiago",
+      "type": "job",
+      "attributes": {
+        "title": "QA Engineer",
+        "description": "<p>Requisitos</p><ul><li>Testing de APIs</li></ul>",
+        "functions": "<ul><li>Diseñar casos de prueba</li></ul>",
+        "desirable": "<ul><li>Postman</li></ul>",
+        "projects": "<p>Proyecto fintech</p>",
+        "benefits": "<ul><li>Clases de inglés avanzado</li></ul>",
+        "remote": false,
+        "remote_modality": "hybrid",
+        "countries": [
+          "Remote"
+        ],
+        "lang": "es",
+        "category_name": "SysAdmin / DevOps / QA",
+        "published_at": 1793124939,
+        "location_tenants": {
+          "data": []
+        },
+        "location_cities": {
+          "data": [
+            {
+              "id": "santiago",
+              "type": "city",
+              "attributes": {
+                "name": "Santiago"
+              }
+            }
+          ]
+        },
+        "company": {
+          "data": {
+            "id": "improving",
+            "type": "company",
+            "attributes": {
+              "name": "Improving"
+            }
+          }
+        }
+      },
+      "links": {
+        "public_url": "https://www.getonbrd.com/jobs/qa-hibrido-santiago"
+      }
+    },
+    {
+      "id": "qa-presencial-baires",
+      "type": "job",
+      "attributes": {
+        "title": "Tester Presencial",
+        "description": "<p>Requisitos</p><ul><li>Testing de APIs</li></ul>",
+        "functions": "<ul><li>Diseñar casos de prueba</li></ul>",
+        "desirable": "<ul><li>Postman</li></ul>",
+        "projects": "<p>Proyecto fintech</p>",
+        "benefits": "<ul><li>Clases de inglés avanzado</li></ul>",
+        "remote": false,
+        "remote_modality": "no_remote",
+        "countries": [
+          "Remote"
+        ],
+        "lang": "es",
+        "category_name": "SysAdmin / DevOps / QA",
+        "published_at": 1793124939,
+        "location_tenants": {
+          "data": []
+        },
+        "location_cities": {
+          "data": [
+            {
+              "id": "buenos_aires",
+              "type": "city",
+              "attributes": {
+                "name": "Buenos Aires"
+              }
+            }
+          ]
+        },
+        "company": {
+          "data": {
+            "id": "improving",
+            "type": "company",
+            "attributes": {
+              "name": "Improving"
+            }
+          }
+        }
+      },
+      "links": {
+        "public_url": "https://www.getonbrd.com/jobs/qa-presencial-baires"
+      }
+    },
+    {
+      "id": "qa-modalidad-nueva",
+      "type": "job",
+      "attributes": {
+        "title": "QA Raro",
+        "description": "<p>Requisitos</p><ul><li>Testing de APIs</li></ul>",
+        "functions": "<ul><li>Diseñar casos de prueba</li></ul>",
+        "desirable": "<ul><li>Postman</li></ul>",
+        "projects": "<p>Proyecto fintech</p>",
+        "benefits": "<ul><li>Clases de inglés avanzado</li></ul>",
+        "remote": false,
+        "remote_modality": "algo_nuevo",
+        "countries": [
+          "Remote"
+        ],
+        "lang": "es",
+        "category_name": "SysAdmin / DevOps / QA",
+        "published_at": 1793124939,
+        "location_tenants": {
+          "data": []
+        },
+        "location_cities": {
+          "data": []
+        },
+        "company": {
+          "data": {
+            "id": "improving",
+            "type": "company",
+            "attributes": {
+              "name": "Improving"
+            }
+          }
+        }
+      },
+      "links": {
+        "public_url": "https://www.getonbrd.com/jobs/qa-modalidad-nueva"
+      }
+    },
+    {
+      "id": "qa-sin-fecha",
+      "type": "job",
+      "attributes": {
+        "title": "QA Sin Fecha",
+        "description": "<p>Requisitos</p><ul><li>Testing de APIs</li></ul>",
+        "functions": "<ul><li>Diseñar casos de prueba</li></ul>",
+        "desirable": "<ul><li>Postman</li></ul>",
+        "projects": "<p>Proyecto fintech</p>",
+        "benefits": "<ul><li>Clases de inglés avanzado</li></ul>",
+        "remote": true,
+        "remote_modality": "fully_remote",
+        "countries": [
+          "Remote"
+        ],
+        "lang": "es",
+        "category_name": "SysAdmin / DevOps / QA",
+        "published_at": "no-es-fecha",
+        "location_tenants": {
+          "data": []
+        },
+        "location_cities": {
+          "data": []
+        },
+        "company": {
+          "data": {
+            "id": "improving",
+            "type": "company",
+            "attributes": {
+              "name": "Improving"
+            }
+          }
+        }
+      },
+      "links": {
+        "public_url": "https://www.getonbrd.com/jobs/qa-sin-fecha"
+      }
+    },
+    {
+      "id": "roto-sin-link",
+      "type": "job",
+      "attributes": {
+        "title": "Oferta rota: sin links"
+      }
+    },
+    {
+      "id": "roto-sin-titulo",
+      "type": "job",
+      "attributes": {},
+      "links": {
+        "public_url": "https://x"
+      }
+    }
+  ],
+  "meta": {
+    "page": 1,
+    "per_page": 100,
+    "total_pages": 4
+  }
+}

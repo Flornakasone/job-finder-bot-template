@@ -1,0 +1,45 @@
+En BC Tecnología buscamos un/a QA Funcional Senior para participar en un programa de implementación de Microsoft Dynamics 365 Customer Service, asegurando la calidad funcional durante todo el ciclo de desarrollo y pruebas.
+El rol tendrá foco en pruebas funcionales, validaciones end-to-end, gestión de defectos, acompañamiento UAT y automatización de regresiones, trabajando en conjunto con equipos de Desarrollo, Integraciones, Data y Negocio, bajo los lineamientos del QA Tech Lead.
+© Get on Board.
+Principales responsabilidades
+Analizar requerimientos funcionales, historias de usuario y criterios de aceptación.
+Diseñar, documentar, ejecutar y mantener casos de prueba funcionales y de regresión.
+Validar flujos end-to-end asociados a procesos de atención al cliente y postventa.
+Ejecutar pruebas sobre aplicaciones web, APIs, integraciones, aplicaciones móviles y componentes de datos.
+Identificar, registrar, documentar, realizar seguimiento y revalidar defectos.
+Elaborar reportes técnicos y ejecutivos relacionados con avances, cobertura y resultados de pruebas.
+Coordinar pruebas con equipos de Desarrollo, Integraciones, Data y áreas de negocio.
+Participar y acompañar pruebas UAT con usuarios finales.
+Validar correcciones y asegurar la no regresión de funcionalidades existentes.
+Diseñar y mantener matrices de cobertura y trazabilidad de pruebas.
+Automatizar pruebas de regresión UI y API.
+Integrar pruebas automatizadas dentro de pipelines CI/CD.
+Apoyar la estimación, planificación y seguimiento de las actividades de QA.
+Participar activamente en ceremonias Agile y reuniones de seguimiento.
+Contribuir a la mejora continua de procesos, herramientas y estándares de calidad.
+Requisitos indispensables
+Experiencia comprobable como QA Funcional Senior en proyectos de software empresariales.
+Experiencia en pruebas funcionales sobre plataformas CRM, Customer Service o soluciones similares.
+Conocimiento de procesos de atención al cliente, postventa y gestión de casos.
+Experiencia en diseño y ejecución de casos de prueba, matrices de cobertura y trazabilidad.
+Experiencia en pruebas de regresión y validaciones end-to-end.
+Experiencia realizando pruebas sobre APIs REST.
+Conocimiento en pruebas de aplicaciones web y móviles Android/iOS.
+Capacidad para analizar reglas de negocio y escenarios funcionales complejos.
+Experiencia gestionando requerimientos y defectos mediante Jira y Confluence.
+Manejo de herramientas de gestión de pruebas como Xray, Zephyr o TestRail.
+Experiencia en automatización UI utilizando herramientas como Playwright, Cypress o Selenium.
+Experiencia en automatización de APIs mediante Postman, REST Assured o Karate DSL.
+Conocimiento en validaciones de Data Quality.
+Manejo de control de versiones mediante Git, GitHub o GitLab.
+Conocimientos de programación en Python, Java, JavaScript o lenguajes similares.
+Experiencia trabajando bajo lineamientos de un QA Tech Lead.
+Requisitos adicionales
+Al menos 5 años de experiencia en QA funcional y automatización.
+Experiencia comprobable en proyectos con Microsoft Dynamics 365 Customer Service.
+Conocimiento de Microsoft Power Platform y Power Automate.
+Experiencia en pruebas de soluciones omnicanal o Contact Center.
+Experiencia en pruebas de WMS, BI o plataformas integradas.
+Conocimiento de herramientas de monitoreo y reporting como Grafana, Prometheus, InfluxDB o Allure.
+Experiencia trabajando con metodologías ágiles Scrum o Kanban.
+Certificación ISTQB Foundation o Agile Tester.

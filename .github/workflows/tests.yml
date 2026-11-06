@@ -1,0 +1,29 @@
+name: Tests
+
+# Corre los tests en cada push y en cada Pull Request
+on:
+  push:
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  pytest:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Instalar dependencias
+        run: pip install -r requirements-dev.txt
+
+      # Sin secretos: los tests nunca llaman a Telegram ni a APIs reales
+      - name: Correr tests
+        run: python -m pytest -v
