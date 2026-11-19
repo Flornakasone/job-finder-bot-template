@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:tt="https://teamtailor.com/locations">
+  <channel>
+    <title>Acme</title>
+    <description>Nuestras oportunidades</description>
+    <link>https://acme.na.teamtailor.com/jobs</link>
+    <item>
+      <title>QA JR</title>
+      <description>&lt;p&gt;&lt;strong&gt;Acme&lt;/strong&gt; busca una persona QA para un producto digital.&lt;/p&gt;&lt;h2&gt;Requisitos&lt;/h2&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;Testing funcional y de APIs REST.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;Experiencia con SQL.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Deseable: Playwright.&lt;/p&gt;</description>
+      <pubDate>Tue, 03 Nov 2026 18:04:14 -0300</pubDate>
+      <link>https://acme.na.teamtailor.com/jobs/1001-qa-jr</link>
+      <remoteStatus>none</remoteStatus>
+      <guid>00000000-0000-4000-8000-0000000000t1</guid>
+      <tt:locations>
+        <tt:location>
+          <tt:name>Sede Central</tt:name>
+          <tt:address>Calle Falsa 123</tt:address>
+          <tt:zip>C1000</tt:zip>
+          <tt:city>Buenos Aires</tt:city>
+          <tt:country>Argentina</tt:country>
+        </tt:location>
+      </tt:locations>
+      <tt:department>Talento</tt:department>
+      <tt:role/>
+    </item>
+    <item>
+      <title>QA Backend SSr</title>
+      <description>&lt;p&gt;&lt;strong&gt;Acme&lt;/strong&gt; busca una persona QA para un producto digital.&lt;/p&gt;&lt;h2&gt;Requisitos&lt;/h2&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;Testing funcional y de APIs REST.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;Experiencia con SQL.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Deseable: Playwright.&lt;/p&gt;</description>
+      <pubDate>Tue, 20 Oct 2026 17:35:31 -0300</pubDate>
+      <link>https://acme.na.teamtailor.com/jobs/1002-qa-backend-ssr</link>
+      <remoteStatus>hybrid</remoteStatus>
+      <guid>00000000-0000-4000-8000-0000000000t2</guid>
+      <tt:locations>
+        <tt:location>
+          <tt:name>Sede Central</tt:name>
+          <tt:address>Calle Falsa 123</tt:address>
+          <tt:zip>C1000</tt:zip>
+          <tt:city>Buenos Aires</tt:city>
+          <tt:country>Argentina</tt:country>
+        </tt:location>
+      </tt:locations>
+      <tt:department>Servicios IT</tt:department>
+      <tt:role>QA Analyst</tt:role>
+    </item>
+  </channel>
+</rss>

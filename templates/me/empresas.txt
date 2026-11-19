@@ -1,0 +1,13 @@
+# EJEMPLO: portales de empleo de empresas que te interesan (ATS).
+# Una por línea:   Nombre | ats | dirección
+#
+# ¿Cómo saber el ATS? Abrí una oferta de la empresa y mirá la URL:
+#   boards.greenhouse.io/SLUG  o  job-boards.greenhouse.io/SLUG  ->  Empresa | greenhouse | SLUG
+#   jobs.lever.co/SLUG                                          ->  Empresa | lever | SLUG
+#   jobs.ashbyhq.com/SLUG                                       ->  Empresa | ashby | SLUG
+#   ALGO.teamtailor.com                                         ->  Empresa | teamtailor | https://ALGO.teamtailor.com
+#
+# Antes de sumar una, verificá que responda (ver SETUP.md, "Probar tus empresas").
+# Sacale el # a las que quieras usar:
+# DEPT | greenhouse | dept
+# redbee | lever | redbee

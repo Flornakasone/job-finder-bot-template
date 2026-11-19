@@ -1,0 +1,51 @@
+# Vocabulario GENÉRICO de requisitos técnicos frecuentes en avisos.
+# No dice nada sobre vos: los gaps se calculan como (esto − config/skills.txt).
+# Una por línea, sin puntos (".net", "node.js" se rompen al partir oraciones).
+# Evitá términos que se pisen (si ponés "dynamics 365", no pongas "dynamics").
+
+# Automatización de UI
+playwright
+cypress
+selenium
+webdriverio
+appium
+puppeteer
+robot framework
+ui automation
+automatizacion de ui
+
+# Lenguajes y frameworks de test
+java
+javascript
+typescript
+python
+pytest
+c#
+kotlin
+junit
+testng
+rest assured
+karate
+
+# Performance
+jmeter
+k6
+gatling
+loadrunner
+
+# CI/CD e infraestructura
+jenkins
+github actions
+gitlab ci
+docker
+kubernetes
+terraform
+azure
+gcp
+
+# Plataformas de negocio
+crm
+dynamics 365
+salesforce
+sap
+servicenow

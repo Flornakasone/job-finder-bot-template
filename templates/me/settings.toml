@@ -1,0 +1,52 @@
+# EJEMPLO de configuración (perfil: QA en Buenos Aires). Copialo a me/settings.toml y cambialo por el tuyo.
+# Nunca en el código: así cualquiera puede usar el bot cambiando solo su carpeta me/.
+
+[ranking]
+# Cuántas ofertas manda por día como máximo
+top_n = 10
+# Piso de % de match: por debajo de esto no se mandan (0 = sin piso).
+# Solo aplica si hay perfil (PROFILE_TEXT); sin perfil se ordena por fecha.
+min_score = 35
+
+[filters]
+# Si el TÍTULO dice que el puesto es solo para una de estas regiones, se descarta.
+# Ej: "Data Annotator - US", "QA Engineer (UK)", "Support Agent | USA only".
+title_region_blocklist = ["US", "USA", "United States", "UK", "Canada"]
+
+# Idiomas que hablás. Si el TÍTULO pide otro idioma (ej. "German Speaker",
+# "Oromo - AI Evaluator"), se descarta. Lista vacía = no filtra por idioma.
+spoken_languages = ["Spanish", "English"]
+
+[report]
+# Día del reporte semanal de gaps (lunes, martes… o monday, tuesday…). "" = sin reporte.
+weekly_gaps_day = "lunes"
+
+[location]
+# Ubicaciones que aceptás para trabajos remotos, además de las globales
+# (worldwide, anywhere, global ya vienen incluidas).
+accepted = ["argentina", "latam", "latin america", "latinoamerica", "south america",
+            "sudamerica", "americas", "america latina", "buenos aires", "caba", "capital federal"]
+# Dónde aceptás trabajos presenciales o híbridos.
+onsite_ok = ["caba", "buenos aires", "capital federal"]
+
+# Prioridad de roles para el % de match: gana el PRIMER grupo que aparece en el título.
+# weight = cuánto suma (1.0 = lo que más buscás).
+[[roles]]
+weight = 1.0
+words = ["qa", "quality assurance", "tester", "testing", "test", "sdet", "automation engineer",
+         "llm evaluation", "llm evaluator", "ai evaluation", "model evaluation", "ai tutor",
+         "ai quality", "red teaming", "data quality"]
+
+[[roles]]
+weight = 0.8
+words = ["analista funcional", "functional analyst", "business analyst", "fintech",
+         "payments", "reconciliation", "conciliacion", "operations analyst"]
+
+[[roles]]
+weight = 0.6
+words = ["data annotation", "annotator", "anotador", "ai trainer", "ai training",
+         "evaluator", "evaluador", "rater", "labeling", "etiquetado"]
+
+[[roles]]
+weight = 0.4
+words = ["support", "soporte", "customer", "atencion al cliente", "help desk", "service"]

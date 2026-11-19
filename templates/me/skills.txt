@@ -1,0 +1,11 @@
+# EJEMPLO: tus skills. Suman al % de match cuando la oferta las menciona.
+# Una por línea. No distingue mayúsculas ni tildes.
+
+testing funcional
+regresion
+api testing
+postman
+sql
+jira
+scrum
+gherkin

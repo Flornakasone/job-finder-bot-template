@@ -1,0 +1,17 @@
+Role Title: Customer Experience (CX) Specialist
+Role Type: Contractor
+Location: Remote
+Acme AI is engaging Customer Experience (CX) Specialists to contribute expertise in Shopping QA, Concierge Services, and Product Discovery for a customer-facing project. In this role, you'll apply your expertise to help train next-generation AI systems. Your work will shape how models learn, reason, and perform through high-quality, real-world input.
+Scope of Work
+1. Deliver detailed assessments of shopping experiences, identifying friction points and opportunities for improvement.
+2. Evaluate and validate online product discovery journeys to ensure ease of selection and relevance for diverse users.
+3. Provide real-time concierge service simulations and feedback to emulate best-in-class customer support scenarios.
+4. Create, review, and refine conversational flows and written responses aimed at enhancing digital customer engagement.
+5. Document and report usability findings, shopping QA results, and customer feedback patterns with clear, actionable insights.
+Preferred Qualifications
+1. Proven expertise in customer experience, shopping QA, or customer support within e-commerce or digital services.
+2. Demonstrated ability to analyze and articulate complex customer journeys and identify improvement opportunities.
+3. Experience offering personalized recommendations or concierge-style support in digital or retail environments.
+4. Strong attention to detail when reviewing customer interactions, product discovery paths, and support scenarios.
+5. Comfort working independently in a remote setting and contributing to collaborative, async-driven projects.
+6. Familiarity with current trends in digital customer engagement, shopping platforms, or AI-based interaction is a plus.

@@ -1,0 +1,4 @@
+# HTTP para Telegram y APIs de empleo. Librería estándar de facto, muy mantenida.
+requests>=2.32,<3
+# Embeddings locales para el % de match. Corre con ONNX (sin torch): liviano y sin GPU.
+fastembed>=0.9,<1

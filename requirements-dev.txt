@@ -1,0 +1,3 @@
+# Dependencias solo para desarrollo y CI (no las necesita el bot diario)
+-r requirements.txt
+pytest>=8,<9   # framework de tests estándar en Python
